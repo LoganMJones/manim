@@ -42,7 +42,7 @@ class Vectors3D(ThreeDScene):
         # self.play(ReplacementTransform(l2, v2), run_time=0.8)
         self.wait(.7)
         self.stop_ambient_camera_rotation()
-        self.play(GrowFromPoint(v3,p2), run_time=2)
+        self.play(GrowFromPoint(v3,p1), run_time=2)
 
 
         self.wait(3)
