@@ -1,0 +1,17 @@
+# Manim outputs
+/media/
+/videos/
+/images/
+/partial_movie_files/
+
+# Manim cache
+.manim_cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor junk
+.DS_Store
+.vscode/
